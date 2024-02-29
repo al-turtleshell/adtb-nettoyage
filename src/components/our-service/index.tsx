@@ -62,7 +62,7 @@ const OurService = () => {
                 variants={variants(1)}
             >
                 <p className="text-text-base text-gray-base">
-                    Notre entreprise de nettoyage se dédie à offrir des environnements propres, sains et accueillants pour une variété d'espaces.
+                    Notre entreprise de nettoyage se dédie à offrir des environnements propres, sains et accueillants pour une variété d&apos;espaces.
                 </p>
             </motion.div>
 
@@ -76,15 +76,15 @@ const OurService = () => {
                 
                     <div className="border-l border-l-[20px] border-l-pink-base pl-element-s mb-section-m">
                         <h1 className="text-heading-3 text-gray-dark pb-element-s">Entretien des copropriétés</h1>
-                        <p className="text-text-small text-gray-base">Nous comprenons l'importance de maintenir des espaces communs propres et accueillants dans les copropriétés.</p>
+                        <p className="text-text-small text-gray-base">Nous comprenons l&apos;importance de maintenir des espaces communs propres et accueillants dans les copropriétés.</p>
                     </div>
                     <div className="text-center text-text-base text-gray-base flex flex-col gap-element-s mb-section-m">
-                        <p>Nettoyage des halls d'entrée et des couloirs</p>
+                        <p>Nettoyage des halls d&apos;entrée et des couloirs</p>
                         <p>Entretien des escaliers et des ascenseurs</p>
                         <p>Nettoyage des vitres dans les parties communes</p>
                         <p>Gestion des déchets et tri sélectif</p>
                     </div>
-                    <p className="text-center text-text-base text-gray-base">Chaque copropriété est unique, c'est pourquoi nous adaptons nos services pour répondre aux besoins spécifiques de chaque communauté.</p>
+                    <p className="text-center text-text-base text-gray-base">Chaque copropriété est unique, c&apos;est pourquoi nous adaptons nos services pour répondre aux besoins spécifiques de chaque communauté.</p>
                 </motion.div>
                 <motion.div
                     initial="hidden"
@@ -133,10 +133,10 @@ const OurService = () => {
                 >
                     <div className="border-l border-l-[20px] border-l-pink-base pl-element-s mb-section-m">
                         <h1 className="text-heading-3 text-gray-dark pb-element-s">Entretien des associations</h1>
-                        <p className="text-text-small text-gray-base">Les associations, qu'elles soient culturelles, sportives ou sociales, méritent des espaces propres pour accueillir leurs membres.</p>
+                        <p className="text-text-small text-gray-base">Les associations, qu&apos;elles soient culturelles, sportives ou sociales, méritent des espaces propres pour accueillir leurs membres.</p>
                     </div>
                     <div className="text-center text-text-base text-gray-base flex flex-col gap-element-s mb-section-m">
-                        <p>Nettoyage des salles de réunion et des zones d'accueil</p>
+                        <p>Nettoyage des salles de réunion et des zones d&apos;accueil</p>
                         <p>Entretien des équipements et des installations sportives</p>
                         <p>Nettoyage des vestiaires et sanitaires</p>
                         <p>Maintenance des espaces extérieurs</p>

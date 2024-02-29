@@ -32,19 +32,19 @@ return (
             <AccordionItem value="item-3">
                 <AccordionTrigger>Comment sont calculés vos tarifs ?</AccordionTrigger>
                 <AccordionContent>
-                Nos tarifs sont basés sur la taille de l'espace à nettoyer, la fréquence des services et le type de nettoyage requis. Nous proposons des devis personnalisés pour garantir une tarification transparente et juste.
+                Nos tarifs sont basés sur la taille de l&apos;espace à nettoyer, la fréquence des services et le type de nettoyage requis. Nous proposons des devis personnalisés pour garantir une tarification transparente et juste.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
-                <AccordionTrigger>Quelle est votre politique d'annulation ?</AccordionTrigger>
+                <AccordionTrigger>Quelle est votre politique d&apos;annulation ?</AccordionTrigger>
                 <AccordionContent>
-                Les annulations peuvent être effectuées sans frais jusqu'à 48 heures avant le service prévu. 
-                Pour les annulations tardives, des frais peuvent s'appliquer. 
-                En cas de circonstances exceptionnelles, nous nous efforçons d'être flexibles pour répondre à vos besoins.
+                Les annulations peuvent être effectuées sans frais jusqu&apos;à 48 heures avant le service prévu. 
+                Pour les annulations tardives, des frais peuvent s&apos;appliquer. 
+                En cas de circonstances exceptionnelles, nous nous efforçons d&apos;être flexibles pour répondre à vos besoins.
                 </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
-                <AccordionTrigger>Comment puis-je vous contacter pour plus d'informations ou en cas de problème ?</AccordionTrigger>
+                <AccordionTrigger>Comment puis-je vous contacter pour plus d&apos;informations ou en cas de problème ?</AccordionTrigger>
                 <AccordionContent>
                 Vous pouvez nous contacter par téléphone, email pour toute question ou préoccupation. Notre équipe de support client est là pour vous aider et garantir votre satisfaction.
                 </AccordionContent>

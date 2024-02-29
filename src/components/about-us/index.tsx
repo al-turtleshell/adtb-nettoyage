@@ -54,7 +54,7 @@ const AboutUs = () => {
             >
                 <p className="text-text-base text-gray-dark">
                     Bienvenue chez ADTB NETTOYAGE, votre partenaire de confiance pour des solutions de nettoyage à Besançon. 
-                    Fondée il y a plus de 20 ans, notre entreprise familiale s'est bâtie sur des valeurs de fiabilité, de qualité et de proximité, 
+                    Fondée il y a plus de 20 ans, notre entreprise familiale s&apos;est bâtie sur des valeurs de fiabilité, de qualité et de proximité, 
                     qui nous guident dans chaque service que nous proposons.
                 </p>
             </motion.div>
