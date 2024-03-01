@@ -36,7 +36,7 @@ const OurService = () => {
     return (
         <div id="our-service"
             ref={ref}
-            className="-mt-section-l pt-section-l"
+            className="-mt-section-l pt-section-l px-element-s"
         >
             
             <div className="flex items-center mb-element-l">
@@ -44,7 +44,7 @@ const OurService = () => {
                     initial="hidden"
                     animate={controls}
                     variants={variants(0)}
-                    className="text-heading-2 text-gray-dark mr-element-l whitespace-nowrap"
+                    className="text-heading-5 lg:text-heading-2 text-gray-dark mr-element-l whitespace-nowrap"
                 > 
                     Nos Services
                 </motion.h1>
@@ -52,11 +52,11 @@ const OurService = () => {
                     initial="hidden"
                     animate={controls}
                     variants={variantPinkBand}
-                    className="w-full h-[80px] bg-pink-base" 
+                    className="w-full h-[50px] lg:h-[80px] bg-pink-base" 
                 />
             </div>
             <motion.div 
-                className="text-center px-section-l mb-section-l"
+                className="text-center mb-section-s lg:px-section-l lg:mb-section-l"
                 initial="hidden"
                 animate={controls}
                 variants={variants(1)}
@@ -66,9 +66,17 @@ const OurService = () => {
                 </p>
             </motion.div>
 
-            <div className="flex mb-section-l">
+            <div className="lg:flex mb-section-l">
+                <motion.div
+                    initial="hidden"
+                    variants={variantsPost(100, 1.75)}
+                    animate={controls}
+                    className="lg:hidden mb-element-l"
+                >   
+                    <Image src={'/copro.jpeg'} alt="hero" width="590" height="388" style={{ height: '100%', width: '100%', borderRadius: '15px' }}  />
+                </motion.div>
                 <motion.div 
-                    className="w-1/2 mr-section-m"
+                    className="lg:w-1/2 lg:mr-section-m"
                     initial="hidden"
                     variants={variantsPost(-100, 1.5)}
                     animate={controls}
@@ -90,21 +98,23 @@ const OurService = () => {
                     initial="hidden"
                     variants={variantsPost(100, 1.75)}
                     animate={controls}
+                    className="hidden lg:block"
                 >   
                     <Image src={'/copro.jpeg'} alt="hero" width="590" height="388" style={{ height: '100%', width: '100%', borderRadius: '15px' }}  />
                 </motion.div>
             </div>
 
-            <div className="flex mb-section-l">
+            <div className="lg:flex mb-section-l">
                 <motion.div
                     initial="hidden"
                     variants={variantsPost(-100, 2)}
                     animate={controls}
+                    className="mb-element-l"
                 >   
                     <Image src={'/bureau.jpeg'} alt="hero" width="590" height="388" style={{ height: '100%', width: '100%', borderRadius: '15px' }}  />
                 </motion.div>
                 <motion.div 
-                    className="w-1/2 ml-section-m"
+                    className="lg:w-1/2 lg:ml-section-m"
                     initial="hidden"
                     variants={variantsPost(100, 2.25)}
                     animate={controls}
@@ -124,9 +134,17 @@ const OurService = () => {
                 </motion.div>
             </div>
 
-            <div className="flex mb-section-l">
+            <div className="lg:flex mb-section-l">
+                <motion.div
+                    initial="hidden"
+                    variants={variantsPost(100, 2.75)}
+                    animate={controls}
+                    className="lg:hidden mb-element-l"
+                >   
+                    <Image src={'/asso.jpeg'} alt="hero" width="590" height="388" style={{ height: '100%', width: '100%', borderRadius: '15px' }}  />
+                </motion.div>
                 <motion.div 
-                    className="w-1/2 mr-section-m"
+                    className="lg:w-1/2 lg:mr-section-m"
                     initial="hidden"
                     variants={variantsPost(-100, 2.5)}
                     animate={controls}
@@ -147,6 +165,7 @@ const OurService = () => {
                     initial="hidden"
                     variants={variantsPost(100, 2.75)}
                     animate={controls}
+                    className="hidden lg:block"
                 >   
                     <Image src={'/asso.jpeg'} alt="hero" width="590" height="388" style={{ height: '100%', width: '100%', borderRadius: '15px' }}  />
                 </motion.div>

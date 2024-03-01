@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="mx-auto max-w-[1200px] overflow-hidden px-element-m">
+        <main className="mx-auto max-w-[1200px] overflow-hidden lg:px-element-m">
           {children}
         </main>
       </body>

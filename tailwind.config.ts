@@ -10,6 +10,9 @@ const config = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      lg: '1200px'
+    },
     fontSize: {
       "heading-1": ["4.209rem", { lineHeight: "4.6299rem", letterSpacing: "-0.08418rem", fontWeight: "700" }],
       "heading-2": ["3.157rem", { lineHeight: "3.4727rem", letterSpacing: "-0.06314rem", fontWeight: "700"  }],

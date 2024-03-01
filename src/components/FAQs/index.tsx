@@ -8,10 +8,10 @@ import {
 
 const FAQs = () => {
 return (
-    <div id="faq" className="mb-section-m  -mt-section-l pt-section-l">
+    <div id="faq" className=" mb-section-s lg:mb-section-m  -mt-section-l pt-section-l px-element-s">
         <div className="flex items-center mb-element-l">
-            <h1 className="text-heading-2 text-gray-dark mr-element-l whitespace-nowrap"> FAQs </h1>
-            <div className="w-full h-[80px] bg-pink-base" />
+            <h1 className="text-heading-5 lg:text-heading-2 text-gray-dark mr-element-l whitespace-nowrap"> FAQs </h1>
+            <div className="w-full h-[50px] lg:h-[80px] bg-pink-base" />
         </div>
         <div>
         <Accordion type="single" collapsible>

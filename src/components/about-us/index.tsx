@@ -25,13 +25,13 @@ const AboutUs = () => {
     }
 
     return (
-        <motion.div id="about-us" ref={ref} className='mb-section-xl -mt-section-l pt-section-l'>
+        <motion.div id="about-us" ref={ref} className='mb-section-xl -mt-section-l pt-section-l px-element-s'>
             <div className="flex items-center mb-element-l">
                 <motion.h1
                     initial="hidden"
                     animate={controls}
                     variants={variants(0)}
-                    className="text-heading-2 text-gray-dark mr-element-l whitespace-nowrap"
+                    className="text-heading-5 lg:text-heading-2 text-gray-dark mr-element-l whitespace-nowrap"
                 > 
                     
                     A propos de nous
@@ -42,25 +42,25 @@ const AboutUs = () => {
                     animate={controls}
                     variants={variantPinkBand}
 
-                    className="w-full h-[80px] bg-pink-base" 
+                    className="w-full h-[50px] lg:h-[80px] bg-pink-base" 
                 />
 
             </div>
             <motion.div 
-                className="text-center px-section-l mb-section-m"
+                className="text-center lg:px-section-l mb-section-m"
                 initial="hidden"
                 animate={controls}
                 variants={variants(1)}
             >
-                <p className="text-text-base text-gray-dark">
+                <p className="text-text-base text-gray-dark px-element-s">
                     Bienvenue chez ADTB NETTOYAGE, votre partenaire de confiance pour des solutions de nettoyage à Besançon. 
                     Fondée il y a plus de 20 ans, notre entreprise familiale s&apos;est bâtie sur des valeurs de fiabilité, de qualité et de proximité, 
                     qui nous guident dans chaque service que nous proposons.
                 </p>
             </motion.div>
-            <div className="flex gap-section-s mb-section-l">
+            <div className="lg:flex gap-section-s mb-section-l text-center lg:text-left">
                     <motion.div 
-                        className="w-1/2"
+                        className="lg:w-1/2 mb-section-s"
                         initial="hidden"
                         animate={controls}
                         variants={variants(2)}
@@ -71,7 +71,7 @@ const AboutUs = () => {
                     </motion.div>
                 
                     <motion.div 
-                        className="w-1/2"
+                        className="lg:w-1/2"
                         initial="hidden"
                         animate={controls}
                         variants={variants(3)}
