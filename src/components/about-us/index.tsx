@@ -66,7 +66,7 @@ const AboutUs = () => {
                         variants={variants(2)}
                     >
                         <h1 className="border-b border-b-[10px] border-b-pink-base pb-[2px] px-element-s mb-element-m inline-block text-gray-dark font-bold"> NOTRE HISTOIRE</h1>
-                        <p className="text-text-base text-gray-base">Depuis notre création, nous avons eu à cœur de fournir des services de nettoyage de haute qualité adaptés aux besoins spécifiques de nos clients. 
+                        <p className="text-text-base text-gray-base">Depuis notre création, nous avons eu à cœur de fournir des services de nettoyage de qualité adaptés aux besoins spécifiques de nos clients. 
                             Notre longue expérience dans le secteur nous permet de comprendre en profondeur les exigences uniques des espaces professionnels et résidentiels, ce qui fait de nous le choix pour de nombreux syndics et professionnels de la région.</p>
                     </motion.div>
                 
@@ -77,8 +77,7 @@ const AboutUs = () => {
                         variants={variants(3)}
                     >
                         <h1 className="border-b border-b-[10px] border-b-pink-base pb-[2px] px-element-s mb-element-m inline-block text-gray-dark font-bold"> NOTRE ENGAGEMENT</h1>
-                        <p className="text-text-base text-gray-base">Depuis notre création, nous avons eu à cœur de fournir des services de nettoyage de haute qualité adaptés aux besoins spécifiques de nos clients. 
-                            Notre longue expérience dans le secteur nous permet de comprendre en profondeur les exigences uniques des espaces professionnels et résidentiels, ce qui fait de nous le choix pour de nombreux syndics et professionnels de la région.</p>
+                        <p className="text-text-base text-gray-base">En tant qu'entreprise familiale, nous chérissons les relations à long terme et la proximité avec nos clients. Nous croyons en l'importance de l'intégrité, de la transparence et de l'excellence dans toutes nos interactions. Notre équipe est dédiée à dépasser vos attentes, en apportant un soin particulier et une attention aux détails dans chaque espace que nous nettoyons.</p>
                     </motion.div>
             </div>
             <motion.div
