@@ -77,7 +77,7 @@ const AboutUs = () => {
                         variants={variants(3)}
                     >
                         <h1 className="border-b border-b-[10px] border-b-pink-base pb-[2px] px-element-s mb-element-m inline-block text-gray-dark font-bold"> NOTRE ENGAGEMENT</h1>
-                        <p className="text-text-base text-gray-base">En tant qu'entreprise familiale, nous chérissons les relations à long terme et la proximité avec nos clients. Nous croyons en l'importance de l'intégrité, de la transparence et de l'excellence dans toutes nos interactions. Notre équipe est dédiée à dépasser vos attentes, en apportant un soin particulier et une attention aux détails dans chaque espace que nous nettoyons.</p>
+                        <p className="text-text-base text-gray-base">En tant qu&apos;entreprise familiale, nous chérissons les relations à long terme et la proximité avec nos clients. Nous croyons en l&apos;importance de l&apos;intégrité, de la transparence et de l&apos;excellence dans toutes nos interactions. Notre équipe est dédiée à dépasser vos attentes, en apportant un soin particulier et une attention aux détails dans chaque espace que nous nettoyons.</p>
                     </motion.div>
             </div>
             <motion.div
