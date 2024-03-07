@@ -19,31 +19,25 @@ return (
                     <CarouselItem>
                         <div className="text-text-base text-gray-base px-element-l lg:px-section-l">
                             <p className="mb-element-m">
-                            Chaque jour de travail commence dans un environnement frais et impeccable. Leur équipe ne manque jamais un rendez-vous, et la constance de la qualité de leur travail est tout simplement remarquable. 
-                            C&apos;est un plaisir de travailler dans un espace si bien entretenu, et cela contribue grandement à maintenir le moral et la productivité de notre équipe. 
-                            Ils ont vraiment élevé le standard de ce à quoi nous nous attendons en matière de services de nettoyage
+                                Le conseil syndical vous remercie pour la qualité de votre travail et plus particulierement lors de cette dernière période difficile. Toute notre reconnaissance et nos remerciements.
                             </p>
-                            <h1 className="font-bold text-right"> Les rhumatologues des OS</h1>
+                            <h1 className="font-bold text-right">Les Balcons de la citadelle</h1>
                         </div>   
                     </CarouselItem>
                     <CarouselItem>
                         <div className="text-text-base text-gray-base  px-element-l lg:px-section-l">
                             <p className="mb-element-m">
-                            Chaque interaction est une démonstration de leur engagement envers l&apos;excellence. 
-                            Non seulement la qualité de leur nettoyage dépasse systématiquement nos attentes, mais leur capacité à répondre rapidement à nos demandes de dernière minute est tout simplement exceptionnelle. 
-                            Dans notre secteur d&apos;activité où les impressions comptent énormément, pouvoir compter sur une entreprise aussi fiable et attentive aux détails est un véritable atout.
+                                Un grand merci pour votre travail consciencieux, efficace et votre bonne humeur.
                             </p>
-                            <h1 className="font-bold text-right">Jean michel BRUNO</h1>
+                            <h1 className="font-bold text-right">Copropriété Villa Marceau</h1>
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="text-text-base text-gray-base px-element-l lg:px-section-l">
                             <p className="mb-element-m">
-                            Chaque interaction est une démonstration de leur engagement envers l&apos;excellence. 
-                            Non seulement la qualité de leur nettoyage dépasse systématiquement nos attentes, mais leur capacité à répondre rapidement à nos demandes de dernière minute est tout simplement exceptionnelle. 
-                            Dans notre secteur d&apos;activité où les impressions comptent énormément, pouvoir compter sur une entreprise aussi fiable et attentive aux détails est un véritable atout.
+                                Nous restons toujours extremement satisfait de vos prestations, nous vous en remercions beaucoup.
                             </p>
-                            <h1 className="font-bold text-right">Jean michel BRUNO</h1>
+                            <h1 className="font-bold text-right">Cabinet Rhumatologie</h1>
                         </div>
                     </CarouselItem>
                 </CarouselContent>
